@@ -29,6 +29,7 @@ module.exports.routes = {
   },
   '/search': 'EventController.search',
   '/create': 'EventController.create',
+  '/detail': 'EventController.detail',
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *

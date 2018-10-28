@@ -16,4 +16,7 @@ module.exports = {
     create: async function (req, res) {
         return res.view('pages/create.ejs');
     },
+    detail: async function (req, res) {
+        return res.view('pages/detail.ejs');
+    },
 };
