@@ -27,9 +27,7 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
-   '/':{
-     view: 'pages/search'
-   },   
+  '/search':'EventController.search',
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
