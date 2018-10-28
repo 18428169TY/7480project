@@ -6,12 +6,14 @@
  */
 
 module.exports = {
-  
-    index: async function(req, res) {
+
+    index: async function (req, res) {
         return res.view('pages/homepage.ejs');
     },
-    search: async function(req, res) {
+    search: async function (req, res) {
         return res.view('pages/search.ejs');
-},
-
+    },
+    create: async function (req, res) {
+        return res.view('pages/create.ejs');
+    },
 };
