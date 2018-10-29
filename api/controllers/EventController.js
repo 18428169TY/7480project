@@ -19,4 +19,10 @@ module.exports = {
     detail: async function (req, res) {
         return res.view('pages/detail.ejs');
     },
+    admin: async function (req, res) {
+
+        return res.view('pages/admin.ejs');
+
+    },
+
 };
